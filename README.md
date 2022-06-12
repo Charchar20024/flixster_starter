@@ -67,7 +67,7 @@ I feel like my demo was overall good. Something that didnt go as planned is the 
 
 ### Shout out
 
-Shout out to TA Roy for helping my display my images on to the website! 
+Shout out to TA Roy for helping my display my images on to the website!!
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
