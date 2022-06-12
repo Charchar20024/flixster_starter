@@ -4,7 +4,7 @@
 
 Submitted by: **Charidi Stevens**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **10** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -12,10 +12,10 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view
+- [x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
-- [ ] For each movie displayed, user can see the following details:
+- [x] For each movie displayed, user can see the following details:
   - Title - the element should have a class of `movie-title`
   - Image - the `img` element should have a class of `movie-poster`
   - Votes - the element should have a class of `movie-votes`
@@ -23,14 +23,14 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
   - The button should have an id of `load-more-movies-btn`.
   - When clicked, the page should not refresh.
   - New movies should simply be added to the bottom
-- [ ] Allow users to search for movies and display them in a grid view
+- [x] Allow users to search for movies and display them in a grid view
   - There should be a search input element with an id of `search-input`
   - Users should be able to type into the input
   - When a user hits 'Enter', it should send a search request to the movies API
   - The results from the search should be displayed on the page
   - There should be a close icon with an id of `close-search-btn` that exits the search, clears results, and shows the current movies displayed previously
-- [ ] Website accounts for basic HTML/CSS accessibility features
-- [ ] Website should be responsive
+- [x] Website accounts for basic HTML/CSS accessibility features
+- [x] Website should be responsive
 
 #### STRETCH FEATURES
 
@@ -44,21 +44,22 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+`
+![](https://i.imgur.com/YFToKsS.gif)
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The feature that i felt most unperpared for is the load more feature. I dont really have an understanding of how exactly i am suppost to load more movies while keeping the already displayed moives but im going to search the intenet and youtube in the hopes of figuring it out.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If i had more time i would finsh the stretch features more spicifly the popup feature.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I feel like my demo was overall good. Something that didnt go as planned is the search bar, I unable to search with spaces Ex: All American.
 
 ### Open-source libraries used
 
@@ -66,4 +67,7 @@ Add your response here
 
 ### Shout out
 
+Shout out to TA Roy for helping my display my images on to the website! 
+
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
