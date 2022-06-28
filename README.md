@@ -40,7 +40,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
-### Walkthrough Video
+![](https://i.imgur.com/RzkAq7B.gif)
 
 ![](https://i.imgur.com/j9gs4NS.gif)
 
