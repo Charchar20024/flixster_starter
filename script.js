@@ -2,15 +2,14 @@ const movieSectionElement = document.querySelector(".movie-section");
 const formElement = document.querySelector("form");
 const searchBoxElement = document.querySelector("#searchBox");
 const searchElement = document.querySelector("#searchButton");
-const moreButton = document.querySelector("#button-1");
+const showMeMoreBtn = document.getElementById('show-me-more-btn');
 
 const apiKey = "8bce4cc25207a6c3b4ad6cdee8ca3c1d";
 
+var currentApiPage = 1;
 
-var pageNum = 1;
 
-
-let url ="https://api.themoviedb.org/3/movie/now_playing?api_key="+apiKey+"&language=en-US&page="+pageNum;
+let url ="https://api.themoviedb.org/3/movie/now_playing?api_key="+apiKey+"&language=en-US&page=";
     console.log(url);
 
     getMovie(url);
@@ -19,7 +18,8 @@ let url ="https://api.themoviedb.org/3/movie/now_playing?api_key="+apiKey+"&lang
 async function getMovie(url){
     
     
-    let reponse = await fetch(url);
+    let reponse = await fetch(url+currentApiPage);
+
     let reponseData = await reponse.json();
 
     let movies = reponseData.results.map(result => ({
@@ -31,12 +31,11 @@ async function getMovie(url){
 
     console.log(reponseData);
     //console.log(movies);
-movieSectionElement.innerHTML= ` <div>
-    <div>`;
+// movieSectionElement.innerHTML= ` <div>
+//     <div>`;
 
     displayMovies(movies);
-    pageNum++;
-    console.log(pageNum); 
+    currentApiPage++;
 }
 
 
@@ -57,17 +56,30 @@ function displayMovies(apiData){
 
 }
 
-formElement.addEventListener("click",getSearch);
+
 
 async function getSearch(evt){
+    movieSectionElement.innerHTML= ` <div>
+//     <div>`;
     
-   const searchTerm = searchBoxElement.value;
-let searchUrl = "https://api.themoviedb.org/3/search/movie?api_key="+apiKey+"&query="+searchTerm;
+    const searchTerm = searchBoxElement.value;
+    let searchUrl = "https://api.themoviedb.org/3/search/movie?api_key="+apiKey+"&query="+searchTerm;
     evt.preventDefault(); 
-console.log(searchUrl);
-    getMovie(searchUrl)
+    console.log(searchUrl);
+    const results = await getMovie(searchUrl);
+    displayMovies(results);
    
  
     
 }
- moreButton.addEventListener("click", getMovie);
+formElement.addEventListener("click",getSearch);
+
+async function handleShowMeMoreClick(evt) {
+    
+    const results = await getMovie(url);
+    displayMovies(results);
+    currentApiPage++;
+    console.log(currentApiPage)
+}
+
+showMeMoreBtn.addEventListener('click', handleShowMeMoreClick);
