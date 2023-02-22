@@ -1,16 +1,10 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
 Submitted by: **Charidi Stevens**
 
 Estimated time spent: **10** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
-
 ### Application Features
-
-#### CORE FEATURES
 
 - [x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
@@ -32,13 +26,6 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [x] Website accounts for basic HTML/CSS accessibility features
 - [x] Website should be responsive
 
-#### STRETCH FEATURES
-
-- [ ] Deploy website using GitHub Pages. 
-- [ ] Allow user to view more details about a movie within a popup.
-- [ ] Improve the user experience through CSS & animation.
-- [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
-- [ ] Implement anything else that you can get done to improve the app functionality!
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92543813/176782231-c84c2797-cf99-4103-8f2a-22c183cdb960.gif)
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/92543813/176782252-06af6913-3325-4112-9fcb-ce8f56ddf199.gif)
@@ -47,24 +34,13 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-The feature that i felt most unperpared for is the load more feature. I dont really have an understanding of how exactly i am suppost to load more movies while keeping the already displayed moives but im going to search the intenet and youtube in the hopes of figuring it out.
+The feature that i felt most unperpared for is the load more feature. I dont really have an understanding of how exactly i am suppost to load more movies while keeping the already displayed moives but im going to search the intenet and youtube to figuring it out.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-If i had more time i would finsh the stretch features more spicifly the popup feature.
+If i had more time i would finsh the stretch features more like the popup feature.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
 I feel like my demo was overall good. Something that didnt go as planned is the search bar, I unable to search with spaces Ex: All American.
-
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
-
-### Shout out
-
-Shout out to TA Roy for helping my display my images on to the website!!
-
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
-
 
